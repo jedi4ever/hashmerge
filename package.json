@@ -1,6 +1,6 @@
 {
   "name": "hashmerge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Patrick Debois <patrick.debois@jedi.be>",
   "private": false,
   "description": "no mutable deep hash merge, usefull for configuration hashes",
@@ -16,8 +16,7 @@
     "hash",
     "config"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "*",
     "jshint": "*",
