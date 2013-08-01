@@ -1,0 +1,40 @@
+{
+  "name": "hashmerge",
+  "version": "0.0.1",
+  "author": "Patrick Debois <patrick.debois@jedi.be>",
+  "private": false,
+  "description": "no mutable deep hash merge, usefull for configuration hashes",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jedi4ever/hashmerge.git"
+  },
+  "main": "lib/hashmerge.js",
+  "keywords": [
+    "hash",
+    "config"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "jshint": "*",
+    "jscoverage": "*",
+    "nodewatch": "*",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-release": "~0.3.5",
+    "grunt-mocha-test": "~0.5.0",
+    "blanket": "~1.1.5",
+    "grunt-docco2": "~0.1.1",
+    "grunt-html": "~0.3.3",
+    "expect.js": "~0.2.0"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}
