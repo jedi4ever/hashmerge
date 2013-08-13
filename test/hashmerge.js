@@ -79,4 +79,15 @@ describe('HashMerge', function() {
 
   });
 
+  it('keeps null default variables', function(done) {
+
+    var options = { user: 'test'};
+
+    var defaults = { group: null};
+    var settings = merge(defaults,options);
+    expect(settings.group).to.be(null);
+    done();
+
+  });
+
 });
