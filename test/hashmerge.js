@@ -90,4 +90,21 @@ describe('HashMerge', function() {
 
   });
 
+  it('keeps undefined default variables', function(done) {
+
+    var options = { user: 'test'};
+
+    var defaults = { group: undefined };
+    var settings = merge(defaults,options);
+    var hasGroup = settings.hasOwnProperty('group');
+    var hasDummy = settings.hasOwnProperty('dummy');
+
+    expect(hasGroup).to.be(true);
+    expect(settings.group).to.be(undefined);
+    expect(hasDummy).to.be(false);
+    expect(settings.user).to.be('test');
+    done();
+
+  });
+
 });
