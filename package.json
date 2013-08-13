@@ -1,6 +1,6 @@
 {
   "name": "hashmerge",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": "Patrick Debois <patrick.debois@jedi.be>",
   "private": false,
   "description": "no mutable deep hash merge, usefull for configuration hashes",
